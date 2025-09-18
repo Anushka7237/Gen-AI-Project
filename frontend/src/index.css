@@ -1,0 +1,14 @@
+body {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background:linear-gradient(to right, rgba(214, 160, 241, 0.34), 90%, rgb(16, 15, 16));
+    color: rgb(9, 0, 11);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(21, 60, 81); /* Dark background */
+        color: #ffffff; /* White text */
+    }
+}
